@@ -24,7 +24,7 @@
   never sent to the host, so a hash route survives reload, bookmarking and
   sharing with no server rewrite rule. Use `pushState` only where a rewrite
   actually exists — and check, rather than assume."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [jp-go-dds.core :as dds]))
 
 (defn check-views

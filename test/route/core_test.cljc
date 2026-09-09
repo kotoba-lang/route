@@ -1,7 +1,7 @@
 (ns route.core-test
   (:require #?(:clj  [clojure.test :refer [deftest is]]
                :cljs [cljs.test :refer [deftest is]])
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [route.core :as route]))
 
 (def ^:private views
