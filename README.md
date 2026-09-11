@@ -43,7 +43,7 @@ server rewrite を持つ経路でだけ pushState を選んでよい —— **�
 
 ```bash
 clojure -M:test                                       # JVM  — 6 tests / 36 assertions
-nbb --classpath "src:test:$(clojure -Spath)" scripts/nbb_test.cljs   # cljs — 同じ 6 / 36
+nbb --classpath "src:test:$(clojure -Spath)" scripts/nbb_test.cljk   # cljs — 同じ 6 / 36
 clojure -M:lint                                       # 0 errors / 0 warnings
 ```
 
